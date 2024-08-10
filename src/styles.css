@@ -63,6 +63,7 @@ section {
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 42px;
 }
 
 footer {
@@ -92,7 +93,6 @@ footer p {
   line-height: 1.5;
   text-align: left;
   opacity: 0.9;
-  margin-right: 20px;
 }
 
 footer ul {
