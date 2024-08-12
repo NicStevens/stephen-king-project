@@ -46,7 +46,6 @@ header a {
   font-weight: 700;
   line-height: 1.26;
   letter-spacing: 3px;
-
   text-decoration: none;
   background: rgb(201, 92, 92);
   color: white;
@@ -61,6 +60,15 @@ main {
   background: black;
 }
 
+main h2 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.26;
+  text-align: left;
+  color: white;
+  margin: 0;
+}
+
 main h3 {
   font-size: 13px;
   font-weight: 800;
@@ -69,15 +77,6 @@ main h3 {
   text-align: left;
   color: rgb(201, 92, 92);
   text-transform: uppercase;
-  margin: 0;
-}
-
-main h2 {
-  font-size: 48px;
-  font-weight: 800;
-  line-height: 1.26;
-  text-align: left;
-  color: white;
   margin: 0;
 }
 
@@ -156,6 +155,11 @@ section {
   text-align: center;
 }
 
+section .secondary h2 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.26;
+}
 section .secondary h3 {
   font-size: 13px;
   font-weight: 800;
@@ -164,12 +168,6 @@ section .secondary h3 {
   color: rgb(201, 92, 92);
   text-transform: uppercase;
   margin: 0;
-}
-
-section .secondary h2 {
-  font-size: 48px;
-  font-weight: 800;
-  line-height: 1.26;
 }
 
 .card {
@@ -186,16 +184,18 @@ h5 {
 .card-body {
   padding: 30px;
 }
+
 .grid-3-columns .btn {
   display: block;
   text-align: center;
 }
+
 iframe {
-  margin: 0 auto;
+  margin: 30px auto 0;
   width: 100%;
   aspect-ratio: 16/9;
-  margin-top: 30px;
 }
+
 footer {
   color: white;
   background-image: linear-gradient(
@@ -251,6 +251,10 @@ footer a {
     font-size: 12px;
   }
 
+  main h2 {
+    font-size: 24px;
+  }
+
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 32px;
@@ -258,5 +262,9 @@ footer a {
 
   section {
     padding: 30px;
+  }
+
+  iframe {
+    margin: 20px auto 0;
   }
 }
