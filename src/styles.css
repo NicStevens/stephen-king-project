@@ -1,6 +1,6 @@
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
-  background: #1e1b2c;
+  background: rgb(18, 14, 35);
 }
 
 .container {
@@ -132,7 +132,7 @@ section {
 }
 
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 
@@ -148,7 +148,7 @@ section {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-section .secondary {
+.secondary {
   background: #1e1b2c;
 }
 
@@ -190,7 +190,12 @@ h5 {
   display: block;
   text-align: center;
 }
-
+iframe {
+  margin: 0 auto;
+  width: 100%;
+  aspect-ratio: 16/9;
+  margin-top: 30px;
+}
 footer {
   color: white;
   background-image: linear-gradient(
@@ -229,6 +234,7 @@ footer li {
 
 footer a {
   color: white;
+  line-height: 1.5;
 }
 
 @media (max-width: 960px) {
